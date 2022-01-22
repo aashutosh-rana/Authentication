@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        android:tooltipText="search by city"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+    android:id="@+id/refresh"
+    android:title="refresh"
+    app:showAsAction="always"
+    android:icon="@drawable/ic_refresh"
+    />
+</menu>

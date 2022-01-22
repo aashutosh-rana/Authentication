@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">CheAshu</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">forgot password</string>
+    <string name="don_t_have_a_account">Don\'t have an account ? </string>
+    <string name="register_now">Register now</string>
+    <string name="already_registered">already registered?</string>
+    <string name="login_now">Login now</string>
+    <string name="creat_account">register</string>
+    <string name="reset_password">reset password</string>
+    <string name="full_name">Full name</string>
+    <string name="facebook_app_id">1000736960343217</string>
+    <string name="fb_login_protocol_scheme">fb1000736960343217</string>
+    <string name="social_login">Social Login</string>
+
+    <string name="twitter_consumer_key" translatable="false">V4qsTP8CHpLGcPFaA83PqHITF</string>
+    <string name="twitter_consumer_secret" translatable="false">jfaA3aBg9qZWwoe0NTPWHVjcgBVCjntcQY6IBN8luEuLntVM72</string>
+    <string name="bachelor">bachelor</string>
+    <string name="don_t_worry_cheashu_is_here">DON\'T WORRY CheAshu IS HERE</string>
+    <string name="my_home_for_rent">my home for rent</string>
+    <string name="i_am_a_renter">i am a renter</string>
+    <string name="logo">LOgo</string>
+
+    <string-array name="roomType">
+        <item>bachelor</item>
+        <item>apartment</item>
+        <item>family</item>
+        <item>simple family</item>
+        <item>flat</item>
+        <item>single room</item>
+    </string-array>
+
+    <string name="title_activity_video_screen">VideoScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="Phone_number">Phone number</string>
+    <string name="state_name">"State:- "</string>
+    <string name="city_name">City:-</string>
+    <string name="Colony_name">Colony:-</string>
+    <string name="landmark_name">Landmark</string>
+    <string name="next">next</string>
+    <string name="maximum_rent_month">maximum rent per month</string>
+    <string name="minimum_rent_month">minimum rent per month</string>
+    <string name="write_image_name_ex_balcony">write image name (ex - balcony)</string>
+    <string name="go_to_profile">Go to profile</string>
+    <string name="single">single</string>
+    <string name="flat">flat</string>
+    <string name="simple">simple</string>
+    <string name="family">family</string>
+    <string name="apartment">apartment</string>
+    <string name="please_select_your_room_specification">PLEASE SELECT YOUR ROOM SPECIFICATION</string>
+    <string name="basics">BASICS</string>
+    <string name="bathroom">BATHROOM</string>
+    <string name="balcony">BALCONY</string>
+    <string name="parking">PARKING</string>
+    <string name="power_supply">POWER SUPPLY</string>
+    <string name="kitchen">KITCHEN</string>
+    <string name="water_supply">WATER SUPPLY</string>
+    <string name="intermediate">INTERMEDIATE</string>
+    <string name="wi_fi">WI-FI</string>
+    <string name="power_backup">POWER BACKUP</string>
+    <string name="air_conditioning">AIR CONDITIONING</string>
+    <string name="laundry">LAUNDRY</string>
+    <string name="lift">LIFT</string>
+    <string name="security_cctv">SECURITY/CCTV</string>
+    <string name="ro_water_system">RO WATER SYSTEM</string>
+    <string name="fire_extinguisher">FIRE EXTINGUISHER</string>
+    <string name="waste_disposal">WASTE DISPOSAL</string>
+    <string name="advance">ADVANCE</string>
+    <string name="club_house">CLUB HOUSE</string>
+    <string name="swimming_pool">SWIMMING POOL</string>
+    <string name="park">PARK</string>
+    <string name="gymnasium">GYMNASIUM</string>
+    <string name="kids_play_area">KIDS PLAY AREA</string>
+    <string name="kids_club">KIDS CLUB</string>
+    <string name="flowers_garden">FLOWERS/GARDEN</string>
+    <string name="multipurpose_hall">MULTIPURPOSE HALL</string>
+    <string name="min_rent">min. rent:-</string>
+    <string name="max_rent">max. rent:-</string>
+    <string name="dash">:-</string>
+    <string name="intermediate_specification">Intermediate specification</string>
+    <string name="advance_specification">Advance specification</string>
+    <string name="rule">OWNER NOT ADDED ANY RULE REGULATION</string>
+    <string name="owner_name">Owner Name:-</string>
+    <string name="visit_guest">visit as a guest</string>
+    <string name="showroom">SHOWROOM</string>
+    <string name="shop">SHOP</string>
+    <string name="showroom_shop">SHOWROOM AND SHOP BOTH</string>
+    <string name="single_bachelor">SINGLE ROOM</string>
+    <string name="double_room">DOUBLE ROOM</string>
+    <string name="simple_flat">"1 BHK FLAT "</string>
+    <string name="select_property_type">SELECT PROPERTY TYPE:-</string>
+    <string name="please_select_category_of_showroom_or_shop">PLEASE SELECT CATEGORY OF SHOWROOM OR SHOP</string>
+    <string name="please_select_property_category_of_family">PLEASE SELECT PROPERTY CATEGORY OF FAMILY</string>
+    <string name="_1_bhk_flat">1 BHK FLAT</string>
+    <string name="_2_bhk_flat">2 BHK FLAT</string>
+    <string name="_3_bhk_flat">3 BHK FLAT</string>
+    <string name="_1_bhk_flat_in_apartment">1 BHK FLAT IN APARTMENT</string>
+    <string name="_2_bhk_flat_in_apartment">2 BHK FLAT IN APARTMENT</string>
+    <string name="only_single_room">ONLY SINGLE ROOM</string>
+    <string name="only_double_room">ONLY DOUBLE ROOM</string>
+    <string name="_3_bhk_flat_in_apartment">3 BHK FLAT IN APARTMENT</string>
+    <string name="please_select_category_of_pg">PLEASE SELECT CATEGORY OF PG</string>
+    <string name="for_both_double_bed">FOR BOTH DOUBLE BED</string>
+    <string name="for_both_single_bed">FOR BOTH SINGLE BED</string>
+    <string name="girls_triple_bed">GIRLS TRIPLE BED</string>
+    <string name="girls_double_bed">GIRLS DOUBLE BED</string>
+    <string name="girls_single_bed">GIRLS SINGLE BED</string>
+    <string name="boys_triple_bed">BOYS TRIPLE BED</string>
+    <string name="boys_double_bed">BOYS DOUBLE BED</string>
+    <string name="boys_single_bed">BOYS SINGLE BED</string>
+    <string name="please_select_property_category_for_boys_bachelor">PLEASE SELECT PROPERTY CATEGORY FOR BOYS BACHELOR</string>
+    <string name="please_select_property_category_for_girls_bachelor">PLEASE SELECT PROPERTY CATEGORY FOR GIRLS BACHELOR</string>
+    <string name="please_select_property_category_for_both_girls_and_boys_bachelor">PLEASE SELECT PROPERTY CATEGORY FOR BOTH GIRLS AND BOYS BACHELOR</string>
+    <string name="please_select_property_category_for_both_bachelor_or_family">PLEASE SELECT PROPERTY CATEGORY FOR BOTH BACHELOR OR FAMILY</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="item_not_found">ITEM NOT FOUND</string>
+    <string name="search_your_city">search your city</string>
+    <string name="shop_or_showroom">shop or showroom</string>
+    <string name="pg">pg</string>
+    <string name="bachelor_only_for_boys">bachelor only for boys</string>
+    <string name="bachelor_only_for_girls">bachelor only for girls</string>
+    <string name="bachelor_for_both_girls_and_boys">bachelor for both girls and boys</string>
+    <string name="bachelor_or_family_both">bachelor or family both</string>
+    <string name="marriage_hall">Marriage Hall</string>
+    <string name="v1">Verify OTP</string>
+    <string name="favourite">Favourite</string>
+    <string name="profile">Profile</string>
+    <string name="add_to_favourite">Add to favourite</string>
+    <string name="logout">Logout</string>
+    <string name="remove">Remove from Favourites</string>
+    <string name="add">Add to Favourites</string>
+    <string name="share">share</string>
+    <string name="my_uploads">My uploads</string>
+    <string name="contact_us">Contact us</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="about_us">About Us</string>
+    <string name="feedback">Feedback</string>
+    <string name="home">Home</string>
+    <string name="open_drawer">open drawer</string>
+    <string name="close_drawer">close drawer</string>
+    <string name="get_location_on_google_map">get location on google map</string>
+    <string name="watch_video_of_room">Watch video of room</string>
+    <string name="email1">Email :-</string>
+    <string name="owner_email">Owner Email</string>
+    <string name="owner_number">Owner Number :-</string>
+    <string name="owner_number1">Owner Number</string>
+    <string name="call_the_owner">call the owner</string>
+    <string name="call_the_cheashu">call the CheAshu</string>
+    <string name="basic_specification">Basic specification</string>
+    <string name="login_email">login with email</string>
+    <string name="mobile_login">login with mobile number</string>
+    <string name="send_feedback">send feedback</string>
+    <string name="_5">5</string>
+    <string name="how_much_satisfied_you">how much satisfied you</string>
+    <string name="please_tell_us_issue_in_detail">please tell us issue in detail</string>
+    <string name="property_already_booked">property already booked</string>
+    <string name="owner_not_added_real_content">owner not added real content</string>
+    <string name="app_crash_or_poor_performance">app crash or poor performance</string>
+    <string name="poor_listing_quality">poor listing quality</string>
+    <string name="please_share_your_feedback">Please share your Feedback</string>
+    <string name="search_issue">search issue</string>
+    <string name="no_history_found">no history found</string>
+    <string name="delete_all">delete all</string>
+    <string name="history">History</string>
+    <string name="opportunity">Opportunity</string>
+    <string name="txt_opp1">Sorry to say currently unavailable this service but we start early so be connected with us</string>
+    <string name="txt_opp2">CheAshu allow you to work with us</string>
+
+    <string name="txt_about_us">CheAshu is a android platform which provide information about room available for rent. This platform provide you to
+    search for rentals based on your requirements like number bed room furnished or non furnished and more such type features. it is allow you to search by your state, city,
+    colony, and landmarks. its provide you to all details about property like owner phone number, direct call to owner, if you feel trouble then
+        its allow you to direct call the CheAshu, its give you more feature like direct message to owner, get property location on google map etc.
+    CheAshu give free service for owners. owners can freely upload his or her property for renters.</string>
+    <string name="data_loading">data loading............</string>
+
+</resources>

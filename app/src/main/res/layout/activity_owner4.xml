@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activity.OwnerActivity4"
+    >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_margin="8dp"
+            android:text="please upload four clear pics and a video to get user more:-"/>
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_margin="4dp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/black"
+                android:layout_weight="1"
+                android:id="@+id/btnImg4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="image"/>
+
+            <Button
+                android:layout_margin="4dp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/black"
+                android:layout_weight="1"
+                android:id="@+id/btnVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="video"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="4dp"
+                 />
+        </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_margin="3dp"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="150dp"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etRule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="write your rule regulations (ex- pet allowed or not, non vegetarion allowed or not etc.)"
+            android:minHeight="90dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/rectangle_background"
+            android:inputType="textCapSentences|textMultiLine"
+            android:maxLength="150"
+            android:padding="10dp"
+            android:gravity="start"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="4dp">
+            <Button
+                android:id="@+id/btnNext"
+                android:background="@drawable/blue_btn_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="upload my room"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textSize="18sp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="12dp"
+                android:padding="10dp"
+                />
+        </RelativeLayout>
+
+</LinearLayout>
+
+<!--        <ProgressBar-->
+<!--        android:id="@+id/progressBar"-->
+<!--        style="?android:attr/progressBarStyleHorizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:max="100"-->
+<!--        android:progress="45"/>-->
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SocialLogin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_bg">
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"/>
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/google_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:textSize="22sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/facebook_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:textSize="22sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/blue_btn_bg"
+                />
+            <com.twitter.sdk.android.core.identity.TwitterLoginButton
+                android:id="@+id/twitter_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:textSize="22sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/blue_btn_bg"
+                />
+
+            <Button
+                android:id="@+id/btnLoginEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:background="@color/tw__composer_red"
+                android:text="@string/login_email"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="6dp"
+                android:drawableStart="@drawable/ic_user"
+                />
+            <Button
+                android:id="@+id/btnLoginNumber"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:text="@string/mobile_login"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/rectangle_background2"
+                android:padding="8dp"
+                android:drawableStart="@drawable/ic_number"
+                />
+
+            <View
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/txt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/don_t_have_a_account"
+                    android:textSize="15sp"
+                    android:padding="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginStart="60dp"
+
+                    />
+                <TextView
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/txtRegisterNow"
+                    android:layout_toEndOf="@+id/txt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_now"
+                    android:layout_marginStart="3dp"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

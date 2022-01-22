@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/description">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_margin="4dp"/>
+
+            <TextView
+                android:layout_toEndOf="@+id/image"
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="min. rent:-"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtMinRent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="4dp"
+                android:layout_toEndOf="@+id/txt1"
+                android:text="min. rent:-"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_below="@+id/txt1"
+                android:layout_toEndOf="@+id/image"
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="max. rent:-"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtMaxRent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/txtMinRent"
+                android:layout_margin="4dp"
+                android:layout_toEndOf="@+id/txt2"
+                android:text="max. rent:-"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_below="@+id/txtMaxRent"
+                android:layout_toEndOf="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="@string/state_name"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_toEndOf="@+id/txt3"
+                android:layout_below="@+id/txtMaxRent"
+                android:id="@+id/txtState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="@string/state_name"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_below="@+id/txt3"
+                android:layout_toEndOf="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="@string/city_name"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/txt4"
+                android:layout_below="@id/txtState"
+                android:layout_margin="4dp"
+                android:text="@string/city_name"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_below="@+id/txt4"
+                android:layout_toEndOf="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="@string/Colony_name"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtColony"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/txt5"
+                android:layout_below="@+id/txtCity"
+                android:layout_margin="4dp"
+                android:text="@string/Colony_name"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_background"
+                android:textStyle="bold"
+                android:text="Delete"
+                android:paddingStart="3dp"
+                android:paddingEnd="3dp"
+                android:layout_toEndOf="@+id/image"
+                android:layout_below="@+id/txtColony"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

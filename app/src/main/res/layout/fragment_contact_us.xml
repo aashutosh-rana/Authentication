@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ContactUsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <LinearLayout
+            android:background="@drawable/rectangle_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/rectangle_background">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONTACT US TO MAKE YOUR OWN APP"
+                    android:textSize="18sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:padding="10dp"
+                    />
+                <EditText
+                    android:id="@+id/etF1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="contact no. or email"
+                    android:padding="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="5dp"
+                    />
+
+                <EditText
+                    android:id="@+id/etF2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="describe about your app"
+                    android:padding="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="5dp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangle_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/rectangle_background">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONTACT US REGARDING POSTING YOUR PROPERTY"
+                    android:textSize="18sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:padding="10dp"
+                    />
+                <EditText
+                    android:id="@+id/etF3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="contact no. or email"
+                    android:padding="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="5dp"
+                    />
+
+                <EditText
+                    android:id="@+id/etF4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="describe you problem"
+                    android:padding="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="5dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/rectangle_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/rectangle_background">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONTACT US TO OTHER REASON"
+                    android:textSize="18sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:padding="10dp"
+                    />
+                <EditText
+                    android:id="@+id/etF5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="contact no. or email"
+                    android:padding="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="5dp"
+                    />
+
+                <EditText
+                    android:id="@+id/etF6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="add reason"
+                    android:padding="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="5dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnContactMe"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/gradient_bg"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:text="contact me"/>
+    </LinearLayout>
+
+</ScrollView>

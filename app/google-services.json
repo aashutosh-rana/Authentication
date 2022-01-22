@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "408307210095",
+    "firebase_url": "https://authentication-343f8.firebaseio.com",
+    "project_id": "authentication-343f8",
+    "storage_bucket": "authentication-343f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408307210095:android:8c5956a6ab5c70467bba9a",
+        "android_client_info": {
+          "package_name": "com.bcebhagalpur.authentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408307210095-f4oradmoubglc8h7kaf1sgl6n8nk0smu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bcebhagalpur.authentication",
+            "certificate_hash": "524026c110fb45b811edf12519afa80efffdea17"
+          }
+        },
+        {
+          "client_id": "408307210095-3acjbrd84u34vnfdhjqs8grin2dhsfc3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfrANvnntuKTTCMxmsdOaxQsUg0PbvmbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408307210095-3acjbrd84u34vnfdhjqs8grin2dhsfc3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

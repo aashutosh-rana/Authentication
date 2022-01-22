@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".useractivity.MarriageHallActivity">
+
+<!--    <com.google.android.material.tabs.TabLayout-->
+<!--        app:tabBackground="@drawable/gradient_bg2"-->
+<!--        app:tabTextColor="@android:color/white"-->
+<!--        android:id="@+id/tabs"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="?android:attr/actionBarSize"-->
+<!--        app:tabGravity="center"-->
+<!--        app:tabIndicatorColor="#1898A8"-->
+<!--        app:tabIndicatorFullWidth="true"-->
+<!--        app:tabMode="scrollable"-->
+<!--        app:tabSelectedTextColor="@color/colorAccent"/>-->
+<!--    <androidx.viewpager.widget.ViewPager-->
+<!--        android:layout_below="@+id/tabs"-->
+<!--        android:id="@+id/viewPager"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="coming soon........"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/holo_orange_dark"/>
+
+</RelativeLayout>
